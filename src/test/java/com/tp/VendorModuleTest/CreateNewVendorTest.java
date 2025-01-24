@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import com.tp.demo.baseutility.BaseClass;
 import com.tp.objectRepositoryutility.VenderPage;
 
-public class CreateNewVendor extends BaseClass {
+public class CreateNewVendorTest extends BaseClass {
 @Test
 	public void createVendorTest(){
 	System.out.println("createVendorTest");
