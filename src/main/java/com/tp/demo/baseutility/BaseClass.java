@@ -46,7 +46,7 @@ public class BaseClass {
     @Parameters("BROWSER")
     @BeforeClass(groups = {"smokeTest","regressionTest"})
        public void launchBrowser(@Optional("chrome") String browser) throws IOException {
-		String URL = System.getProperty("url",futils.readDataFromPropertyFile("url"));
+		String URL = System.getProperty("url","http://localhost:8888/");
     	String BROWSER=browser;
 		if(BROWSER.equalsIgnoreCase("chrome")) {
 			driver=new ChromeDriver();
@@ -67,8 +67,8 @@ public class BaseClass {
     @BeforeMethod(groups = {"smokeTest","regressionTest"})
     public void login() throws IOException {
     	LoginPage login = new LoginPage(driver);
-    	String USERNAME = System.getProperty("username",futils.readDataFromPropertyFile("username"));
-		String PASSWORD = System.getProperty("password",futils.readDataFromPropertyFile("password"));
+    	String USERNAME = System.getProperty("username","admin");
+		String PASSWORD = System.getProperty("password","123");
     	login.loginPage(USERNAME, PASSWORD);
     	Reporter.log("======Login is Successfull=====",true);
     }
