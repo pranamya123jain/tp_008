@@ -9,11 +9,18 @@
           <include name="closeDB"/>
           <include name="login"/>
           <include name="connectToDB"/>
+      <class name="tp_008.Oppurtunity">
+        <methods>
+          <include name="closeDB"/>
+          <include name="login"/>
+          <include name="connectToDB"/>
+          <include name="createOpp"/>
           <include name="closeBrowser"/>
           <include name="launchBrowser"/>
           <include name="logout"/>
         </methods>
       </class> <!-- com.tp.VendorModuleTest.CreateNewVendor -->
+      </class> <!-- tp_008.Oppurtunity -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

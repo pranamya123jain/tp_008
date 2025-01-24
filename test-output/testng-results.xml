@@ -26,6 +26,12 @@
     <test started-at="2025-01-24T12:01:08 IST" name="Default test" finished-at="2025-01-24T12:01:24 IST" duration-ms="16973">
       <class name="com.tp.VendorModuleTest.CreateNewVendor">
         <test-method is-config="true" signature="connectToDB()[pri:0, instance:com.tp.VendorModuleTest.CreateNewVendor@17fc391b]" started-at="2025-01-24T12:01:03 IST" name="connectToDB" finished-at="2025-01-24T12:01:08 IST" duration-ms="4391" status="PASS">
+  <suite started-at="2025-01-24T11:56:28 IST" name="Default suite" finished-at="2025-01-24T11:56:37 IST" duration-ms="9193">
+    <groups>
+    </groups>
+    <test started-at="2025-01-24T11:56:28 IST" name="Default test" finished-at="2025-01-24T11:56:37 IST" duration-ms="9193">
+      <class name="tp_008.Oppurtunity">
+        <test-method is-config="true" signature="connectToDB()[pri:0, instance:tp_008.Oppurtunity@327514f]" started-at="2025-01-24T11:56:23 IST" name="connectToDB" finished-at="2025-01-24T11:56:28 IST" duration-ms="4948" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=====connected to DB=======]]>
@@ -33,6 +39,7 @@
           </reporter-output>
         </test-method> <!-- connectToDB -->
         <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tp.VendorModuleTest.CreateNewVendor@17fc391b]" started-at="2025-01-24T12:01:08 IST" name="launchBrowser" finished-at="2025-01-24T12:01:16 IST" duration-ms="8514" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tp_008.Oppurtunity@327514f]" started-at="2025-01-24T11:56:28 IST" name="launchBrowser" finished-at="2025-01-24T11:56:31 IST" duration-ms="2521" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,17 +54,22 @@
           </reporter-output>
         </test-method> <!-- launchBrowser -->
         <test-method is-config="true" signature="login()[pri:0, instance:com.tp.VendorModuleTest.CreateNewVendor@17fc391b]" started-at="2025-01-24T12:01:16 IST" name="login" finished-at="2025-01-24T12:01:20 IST" duration-ms="3815" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:tp_008.Oppurtunity@327514f]" started-at="2025-01-24T11:56:31 IST" name="login" finished-at="2025-01-24T11:56:33 IST" duration-ms="1822" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[======Login is Successfull=====]]>
             </line>
-          </reporter-output>
         </test-method> <!-- login -->
         <test-method signature="createVendorTest()[pri:0, instance:com.tp.VendorModuleTest.CreateNewVendor@17fc391b]" started-at="2025-01-24T12:01:20 IST" name="createVendorTest" finished-at="2025-01-24T12:01:20 IST" duration-ms="21" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createVendorTest -->
         <test-method is-config="true" signature="logout()[pri:0, instance:com.tp.VendorModuleTest.CreateNewVendor@17fc391b]" started-at="2025-01-24T12:01:20 IST" name="logout" finished-at="2025-01-24T12:01:24 IST" duration-ms="4167" status="PASS">
+        <test-method signature="createOpp()[pri:0, instance:tp_008.Oppurtunity@327514f]" started-at="2025-01-24T11:56:33 IST" name="createOpp" finished-at="2025-01-24T11:56:36 IST" duration-ms="3409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOpp -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:tp_008.Oppurtunity@327514f]" started-at="2025-01-24T11:56:36 IST" name="logout" finished-at="2025-01-24T11:56:37 IST" duration-ms="1229" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=====Logout is Successfull=====]]>
@@ -65,6 +77,7 @@
           </reporter-output>
         </test-method> <!-- logout -->
         <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.tp.VendorModuleTest.CreateNewVendor@17fc391b]" started-at="2025-01-24T12:01:24 IST" name="closeBrowser" finished-at="2025-01-24T12:01:24 IST" duration-ms="356" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tp_008.Oppurtunity@327514f]" started-at="2025-01-24T11:56:37 IST" name="closeBrowser" finished-at="2025-01-24T11:56:37 IST" duration-ms="186" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=====BROWSER IS CLOSED======]]>
@@ -72,6 +85,7 @@
           </reporter-output>
         </test-method> <!-- closeBrowser -->
         <test-method is-config="true" signature="closeDB()[pri:0, instance:com.tp.VendorModuleTest.CreateNewVendor@17fc391b]" started-at="2025-01-24T12:01:25 IST" name="closeDB" finished-at="2025-01-24T12:01:25 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closeDB()[pri:0, instance:tp_008.Oppurtunity@327514f]" started-at="2025-01-24T11:56:37 IST" name="closeDB" finished-at="2025-01-24T11:56:37 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=====database is closed=====]]>
@@ -79,6 +93,7 @@
           </reporter-output>
         </test-method> <!-- closeDB -->
       </class> <!-- com.tp.VendorModuleTest.CreateNewVendor -->
+      </class> <!-- tp_008.Oppurtunity -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

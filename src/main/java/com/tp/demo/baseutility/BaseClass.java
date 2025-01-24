@@ -69,6 +69,7 @@ public class BaseClass {
     	LoginPage login = new LoginPage(driver);
     	String USERNAME = System.getProperty("username","admin");
 		String PASSWORD = System.getProperty("password","123");
+		String PASSWORD = System.getProperty("password","manager");
     	login.loginPage(USERNAME, PASSWORD);
     	Reporter.log("======Login is Successfull=====",true);
     }
